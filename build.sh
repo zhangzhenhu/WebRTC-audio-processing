@@ -1,8 +1,9 @@
 #!/bin/sh
 
-# mac 下需要安装如下两个工具
+# mac 下需要安装如下工具
 # brew install libtool
 # brew install automake
+# brew install libsndfile
 
 
 
