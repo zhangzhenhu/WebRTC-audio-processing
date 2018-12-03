@@ -474,13 +474,14 @@ struct VideoContentMetrics {
 /* This class holds up to 60 ms of super-wideband (32 kHz) stereo audio. It
  * allows for adding and subtracting frames while keeping track of the resulting
  * states.
+ * 该类可容纳60 ms的超宽带（32 kHz）立体声音频
  *
  * Notes
  * - The total number of samples in |data_| is
  *   samples_per_channel_ * num_channels_
  *
  * - Stereo data is interleaved starting with the left channel.
- *
+ * - 立体声数据从左声道开始交错
  * - The +operator assume that you would never add exactly opposite frames when
  *   deciding the resulting state. To do this use the -operator.
  */

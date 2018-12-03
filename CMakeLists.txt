@@ -11,10 +11,13 @@ include_directories (webrtc-audio-processing/release/include/webrtc_audio_proces
 include_directories (webrtc-audio-processing)
 include_directories (src/test)
 link_directories(webrtc-audio-processing/release/lib)
-link_libraries(webrtc_audio_processing)
-
+#link_libraries(webrtc_audio_processing)
+#link_directories(/home/work/zhangzhenhu/WebRTC-audio-processing/webrtc-audio-processing/release/lib)
+link_libraries(pthread sndfile)
 add_executable(webrtc-audio-process src/webrtc_audio_processing.cc)
 
 add_executable(audio_proc_test src/test/process_test.cc src/test/test_utils.cc)
 
 
+target_link_libraries(webrtc-audio-process libwebrtc_audio_processing.a)
+target_link_libraries(audio_proc_test libwebrtc_audio_processing.a)
