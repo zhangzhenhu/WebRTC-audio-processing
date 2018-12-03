@@ -4,27 +4,27 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/gsc/codingmath/webrtc-audio-examples/src/test/process_test.cc" "/home/gsc/codingmath/webrtc-audio-examples/CMakeFiles/audio_proc_test.dir/src/test/process_test.cc.o"
-  "/home/gsc/codingmath/webrtc-audio-examples/src/test/test_utils.cc" "/home/gsc/codingmath/webrtc-audio-examples/CMakeFiles/audio_proc_test.dir/src/test/test_utils.cc.o"
+  "/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/process_test.cc" "/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/CMakeFiles/audio_proc_test.dir/src/test/process_test.cc.o"
+  "/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/test_utils.cc" "/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/CMakeFiles/audio_proc_test.dir/src/test/test_utils.cc.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "AppleClang")
 
 # Preprocessor definitions for this target.
-set(CMAKE_TARGET_DEFINITIONS
+set(CMAKE_TARGET_DEFINITIONS_CXX
   "WEBRTC_AUDIO_PROCESSING_ONLY_BUILD=1"
   "WEBRTC_POSIX=1"
+  )
+
+# The include file search paths:
+set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "webrtc-audio-processing/release/include/webrtc_audio_processing"
+  "webrtc-audio-processing"
+  "src/test"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   )
 
-# The include file search paths:
-set(CMAKE_C_TARGET_INCLUDE_PATH
-  "webrtc-audio-processing/release/include/webrtc_audio_processing"
-  "webrtc-audio-processing"
-  "src/test"
-  )
-set(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-set(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
-set(CMAKE_ASM_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
+# Fortran module output directory.
+set(CMAKE_Fortran_TARGET_MODULE_DIR "")

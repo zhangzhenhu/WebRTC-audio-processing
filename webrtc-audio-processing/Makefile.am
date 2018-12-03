@@ -16,9 +16,7 @@ nobase_webrtcinclude_HEADERS = webrtc/base/arraysize.h \
 			       webrtc/modules/audio_processing/beamformer/array_util.h \
 			       webrtc/modules/audio_processing/include/audio_processing.h \
 			       webrtc/modules/interface/module_common_types.h \
-			       webrtc/system_wrappers/include/trace.h \
-			       webrtc/common_audio/wav_file.h \
-			       webrtf/common_audio/wav_header.h
+			       webrtc/system_wrappers/include/trace.h
 
 EXTRA_DIST = NEWS \
 	     README.md \

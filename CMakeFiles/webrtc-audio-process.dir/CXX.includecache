@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,15 +6,17 @@
 
 #IncludeRegexTransform: 
 
-/home/gsc/codingmath/webrtc-audio-examples/src/webrtc_audio_processing.cc
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/webrtc_audio_processing.cc
 string
 -
 iostream
 -
-webrtc/modules/audio_processing/include/audio_processing.h
-/home/gsc/codingmath/webrtc-audio-examples/src/webrtc/modules/audio_processing/include/audio_processing.h
-webrtc/modules/interface/module_common_types.h
-/home/gsc/codingmath/webrtc-audio-examples/src/webrtc/modules/interface/module_common_types.h
+release/include/webrtc_audio_processing/webrtc/modules/audio_processing/include/audio_processing.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/release/include/webrtc_audio_processing/webrtc/modules/audio_processing/include/audio_processing.h
+release/include/webrtc_audio_processing/webrtc/modules/interface/module_common_types.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/release/include/webrtc_audio_processing/webrtc/modules/interface/module_common_types.h
+sndfile.h
+-
 
 webrtc-audio-processing/release/include/webrtc_audio_processing/webrtc/base/arraysize.h
 stddef.h

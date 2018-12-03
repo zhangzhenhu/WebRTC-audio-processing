@@ -2,7 +2,7 @@
 __script_dir=$(cd "$(dirname "$0")"; pwd)
 
 
-./autogen.sh --prefix=${__script_dir}/release
+sh -x ./autogen.sh --prefix=${__script_dir}/release
 
 make
 

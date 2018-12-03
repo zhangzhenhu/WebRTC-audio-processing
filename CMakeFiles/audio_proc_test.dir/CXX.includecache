@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/gsc/codingmath/webrtc-audio-examples/src/test/process_test.cc
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/process_test.cc
 math.h
 -
 stdio.h
@@ -22,33 +22,33 @@ sys/stat.h
 algorithm
 -
 webrtc/base/scoped_ptr.h
-/home/gsc/codingmath/webrtc-audio-examples/src/test/webrtc/base/scoped_ptr.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/webrtc/base/scoped_ptr.h
 test_utils.h
-/home/gsc/codingmath/webrtc-audio-examples/src/test/test_utils.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/test_utils.h
 webrtc/base/wav_file.h
-/home/gsc/codingmath/webrtc-audio-examples/src/test/webrtc/base/wav_file.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/webrtc/base/wav_file.h
 webrtc/base/audio_processing_impl.h
-/home/gsc/codingmath/webrtc-audio-examples/src/test/webrtc/base/audio_processing_impl.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/webrtc/base/audio_processing_impl.h
 webrtc/common.h
-/home/gsc/codingmath/webrtc-audio-examples/src/test/webrtc/common.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/webrtc/common.h
 webrtc/modules/audio_processing/include/audio_processing.h
-/home/gsc/codingmath/webrtc-audio-examples/src/test/webrtc/modules/audio_processing/include/audio_processing.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/webrtc/modules/audio_processing/include/audio_processing.h
 webrtc/modules/audio_processing/test/test_utils.h
-/home/gsc/codingmath/webrtc-audio-examples/src/test/webrtc/modules/audio_processing/test/test_utils.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/webrtc/modules/audio_processing/test/test_utils.h
 webrtc/modules/interface/module_common_types.h
-/home/gsc/codingmath/webrtc-audio-examples/src/test/webrtc/modules/interface/module_common_types.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/webrtc/modules/interface/module_common_types.h
 webrtc/test/testsupport/fileutils.h
-/home/gsc/codingmath/webrtc-audio-examples/src/test/webrtc/test/testsupport/fileutils.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/webrtc/test/testsupport/fileutils.h
 webrtc/test/testsupport/perf_test.h
-/home/gsc/codingmath/webrtc-audio-examples/src/test/webrtc/test/testsupport/perf_test.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/webrtc/test/testsupport/perf_test.h
 
-/home/gsc/codingmath/webrtc-audio-examples/src/test/test_utils.cc
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/test_utils.cc
 webrtc/base/checks.h
-/home/gsc/codingmath/webrtc-audio-examples/src/test/webrtc/base/checks.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/webrtc/base/checks.h
 webrtc/modules/audio_processing/test/test_utils.h
-/home/gsc/codingmath/webrtc-audio-examples/src/test/webrtc/modules/audio_processing/test/test_utils.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/webrtc/modules/audio_processing/test/test_utils.h
 
-/home/gsc/codingmath/webrtc-audio-examples/src/test/test_utils.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/test_utils.h
 math.h
 -
 iterator
@@ -60,17 +60,17 @@ string
 vector
 -
 webrtc/base/constructormagic.h
-/home/gsc/codingmath/webrtc-audio-examples/src/test/webrtc/base/constructormagic.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/webrtc/base/constructormagic.h
 webrtc/base/scoped_ptr.h
-/home/gsc/codingmath/webrtc-audio-examples/src/test/webrtc/base/scoped_ptr.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/webrtc/base/scoped_ptr.h
 webrtc/common_audio/channel_buffer.h
-/home/gsc/codingmath/webrtc-audio-examples/src/test/webrtc/common_audio/channel_buffer.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/webrtc/common_audio/channel_buffer.h
 webrtc/common_audio/wav_file.h
-/home/gsc/codingmath/webrtc-audio-examples/src/test/webrtc/common_audio/wav_file.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/webrtc/common_audio/wav_file.h
 webrtc/modules/audio_processing/include/audio_processing.h
-/home/gsc/codingmath/webrtc-audio-examples/src/test/webrtc/modules/audio_processing/include/audio_processing.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/webrtc/modules/audio_processing/include/audio_processing.h
 webrtc/modules/interface/module_common_types.h
-/home/gsc/codingmath/webrtc-audio-examples/src/test/webrtc/modules/interface/module_common_types.h
+/Users/zhangzhenhu/Documents/音频/project/WebRTC-audio-processing/src/test/webrtc/modules/interface/module_common_types.h
 
 webrtc-audio-processing/release/include/webrtc_audio_processing/webrtc/base/arraysize.h
 stddef.h
