@@ -19,5 +19,5 @@ add_executable(webrtc-audio-process src/webrtc_audio_processing.cc)
 add_executable(audio_proc_test src/test/process_test.cc src/test/test_utils.cc)
 
 
-target_link_libraries(webrtc-audio-process libwebrtc_audio_processing.a)
-target_link_libraries(audio_proc_test libwebrtc_audio_processing.a)
+target_link_libraries(webrtc-audio-process  ${PROJECT_SOURCE_DIR}/webrtc-audio-processing/release/lib/libwebrtc_audio_processing.a)
+target_link_libraries(audio_proc_test  ${PROJECT_SOURCE_DIR}/webrtc-audio-processing/release/lib/libwebrtc_audio_processing.a)
